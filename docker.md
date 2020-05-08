@@ -18,3 +18,13 @@ docker run -v /Users/whoisapunk/Desktop/docker_works/jupyter_notebook:/home/jovy
 docker-compose up
 
 docler-compose down  #delete
+
+git status
+git add --all .
+git status
+git commit -m "Changed the HTML for the site."
+git push
+
+
+git remote add origin git@github.com:whoisapunk/jupyter_notebook.git
+git push -u origin master
